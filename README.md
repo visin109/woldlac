@@ -1,4 +1,3 @@
-**Human Action Recognition using Pose Estimation and OpenCV**
 
 **Project Overview:**
 This project demonstrates how to recognize human actions from a video using pose estimation techniques and OpenCV. The code processes a video, identifies human poses, and recognizes actions based on specific landmarks.
