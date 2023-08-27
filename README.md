@@ -31,31 +31,31 @@ This project demonstrates how to recognize human actions from a video using pose
    - Extract pose landmarks using `results.pose_landmarks`.
    - Draw bounding boxes around detected poses and pose keypoints using OpenCV functions.
 
-8. **Recognize Actions:**
+9. **Recognize Actions:**
    - Define a dictionary of action classes and associated landmarks.
    - Iterate through actions and check if all required keypoints are visible.
    - If visible, store the detected actions.
 
-9. **Annotate Frame with Detected Actions:**
+10. **Annotate Frame with Detected Actions:**
    - Display detected actions on the video frame using `cv2.putText()`.
 
-10. **Write Processed Frame to Output Video:**
+11. **Write Processed Frame to Output Video:**
     - Write the annotated frame to the output video using `out.write()`.
 
-11. **Release Resources:**
+12. **Release Resources:**
     - Release the video capture and writer objects using `release()`.
 
-12. **Process Output Video:**
+13. **Process Output Video:**
     - Open the processed output video using `cv2.VideoCapture`.
 
-13. **Recognize and Annotate Actions in Output Video:**
+14. **Recognize and Annotate Actions in Output Video:**
     - Similar to step 7, recognize actions from the processed output video frames.
     - Annotate the actions on the frames using `cv2.putText()`.
 
-14. **Create Output Video File:**
+15. **Create Output Video File:**
     - Create an output video file for the annotated output video frames.
 
-15. **Release Resources and Close Windows:**
+16. **Release Resources and Close Windows:**
     - Release the video capture, writer, and window objects using `release()` and `destroyAllWindows()`.
 
 **Conclusion:**
