@@ -59,4 +59,4 @@ This project demonstrates how to recognize human actions from a video using pose
     - Release the video capture, writer, and window objects using `release()` and `destroyAllWindows()`.
 
 **Conclusion:**
-This project demonstrates a step-by-step process for recognizing human actions using pose estimation and OpenCV. By following the outlined steps, you can recreate the project and apply it to your own videos to identify and annotate various human actions.
+This project demonstrates a step-by-step process for recognizing human actions using pose estimation and OpenCV.Videos can be uploaded and its action can be recognized if its present in the labels and it can also be modified for real time action recognition.
